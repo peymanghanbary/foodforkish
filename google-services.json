@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1073605025274",
+    "project_id": "foodforkishir",
+    "storage_bucket": "foodforkishir.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073605025274:android:5545425aa5cd0ba5e21843",
+        "android_client_info": {
+          "package_name": "com.foodforkish.ir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073605025274-dtp7khalbf9o1fnb50us20v6fmvv2no6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNhEZvFMjdSO1r6k0v7jVSmQcC-HAGSNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073605025274-dtp7khalbf9o1fnb50us20v6fmvv2no6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
