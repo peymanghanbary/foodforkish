@@ -21,10 +21,10 @@ const HomeIndex = ({navigation}) => {
   const webViewRef = useRef();
 
 useEffect(()=>{
-  getStorageData();
-  if(webViewRef.current){
-    webViewRef.current.reload();
-  }
+  //getStorageData();
+  // if(webViewRef.current){
+  //   webViewRef.current.reload();
+  // }
 },[])
 
   const getStorageData = async () => {
@@ -77,11 +77,11 @@ useEffect(()=>{
         <WebView
         ref={(ref) => webViewRef.current = ref}
         javaScriptEnabled={true}
-        injectedJavaScript={js}
+        // injectedJavaScript={js}
         domStorageEnabled={true}
         style={{flex: 1,backgroundColor:'#282c3f'}}
         source={{ uri: 'https://delivery.f4k.ir/delivery' }}
-        onMessage={onMessage}
+        // onMessage={onMessage}
       />
     </Box>
   )
